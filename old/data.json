@@ -22,13 +22,13 @@
         "position": "Automation Developer",
         "company": "Intel Corporation",
         "date": "Jun 2015 - Apr 2018",
-        "description": "Created automated test scripts and frameworks to improve software testing efficiency and coverage."
+        "description": "* Write <b>Python Framework</b> that gathers Regrassion Run logs and summerize the results. <br> * Write a <b>WebApplication</b> that monitor all DUTs and <b>Realtime</b> and give status feedback. <br> * Write <b>Python Tool</b> that flash driver on DUT device using <b>STM32 J-TAG</b>"
       },
       {
         "position": "Computer Technician",
         "company": "Israel Defense Forces",
         "date": "Mar 2007 - Sep 2011",
-        "description": "Provided technical support and maintenance for computer systems and networks within the organization."
+        "description": "Provided technical support and maintenance for <b>Computer Systems</b> and <b>Networking</b> within the organization."
       }
     ],
     "education": [
@@ -41,6 +41,11 @@
     ],
     "skills": [
       "Python",
+      "HTML",
+      "GIT",
+      "Docker",
+      "AWS",
+      "AZURE",
       "CSS",
       "Java",
       "PHP",
