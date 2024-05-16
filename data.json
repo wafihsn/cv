@@ -1,0 +1,52 @@
+{
+    "name": "Wafi Hassan",
+    "title": "DevOps Team Leader and Developer",
+    "phone": "+972547281988",
+    "email": "wafihsn.88@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/wafihsn",
+    "about": "DevOps team leader and developer, experienced Automation Developer and System Validation Engineer. Skilled in Python, Cascading Style Sheets (CSS), Java, PHP, Linux, C++, C, and Ruby. Strong quality assurance professional with a Practical Software Engineer background.",
+    "experience": [
+      {
+        "position": "Automation Engineer",
+        "company": "Questar Auto Technologies",
+        "date": "Jun 2022 - Present",
+        "description": "Responsible for designing and implementing automated systems to enhance production efficiency and product quality."
+      },
+      {
+        "position": "DevOps Programmer",
+        "company": "Intel Corporation",
+        "date": "Apr 2018 - May 2022",
+        "description": "Developed and maintained CI/CD pipelines and automated deployment processes to ensure seamless software delivery."
+      },
+      {
+        "position": "Automation Developer",
+        "company": "Intel Corporation",
+        "date": "Jun 2015 - Apr 2018",
+        "description": "Created automated test scripts and frameworks to improve software testing efficiency and coverage."
+      },
+      {
+        "position": "Computer Technician",
+        "company": "Israel Defense Forces",
+        "date": "Mar 2007 - Sep 2011",
+        "description": "Provided technical support and maintenance for computer systems and networks within the organization."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Practical Software Engineer",
+        "school": "ORT Braude College",
+        "date": "2012 - 2014",
+        "description": "Studied various software engineering disciplines with a focus on practical applications and real-world problem solving."
+      }
+    ],
+    "skills": [
+      "Python",
+      "CSS",
+      "Java",
+      "PHP",
+      "Linux",
+      "C++",
+      "C",
+      "Ruby"
+    ]
+  }
