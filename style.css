@@ -18,22 +18,23 @@ body {
 header, section, footer {
     margin-bottom: 20px;
     padding: 20px;
-    background: #e8f0fe;
+    background: #f8fbff;
     border-radius: 10px;
+    border: 1px solid #c4cbd8;
 }
 
 h1, h2, h3 {
-    color: #0073e6;
+    color: #0259af;
 }
 
 h1 {
-    border-bottom: 2px solid #0073e6;
+    border-bottom: 2px solid #0259af;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
 h2 {
-    border-bottom: 1px solid #0073e6;
+    border-bottom: 1px solid #0259af;
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
@@ -47,7 +48,7 @@ h2 {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 2px solid #0073e6;
+    border: 1px solid #c4cbd8;
 }
 
 ul {
@@ -56,7 +57,7 @@ ul {
 }
 
 a {
-    color: #0073e6;
+    color: #0259af;
     text-decoration: none;
 }
 
