@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Wafi Hassan's CV</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <div class="container">
@@ -12,13 +13,25 @@
             <div class="profile-picture">
                 <img src="assets/profile.jpg" alt="Wafi Hassan">
             </div>
-            <div align="center">
+            <div class="contact-info">
                 <h1>Wafi Hassan</h1>
-                <a id="phone" href="#">(+972) 0547281988</a> |
-                <a href="mailto:wafihsn.88@gmail.com">wafihsn.88@gmail.com</a> |
-                <a href="https://www.linkedin.com/in/wafihsn" target="_blank">LinkedIn Profile</a>
+                <a id="phone" href="tel:+9720547281988">(+972) 0547281988</a>
+                <span>|</span>
+                <a href="mailto:wafihsn.88@gmail.com">wafihsn.88@gmail.com</a>
+                <span>|</span>
+                <a href="https://www.linkedin.com/in/wafihsn" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+            </div>
+            <div class="download-button">
+                <a href="assets/Wafi_Hassan_CV.pdf" class="download-btn" download>
+                    <i class="fas fa-file-pdf"></i>
+                </a>
             </div>
         </header>
+
+        <section>
+            <h2>About Me</h2>
+            <p>Highly motivated and results-oriented DevOps / Full-stack developer with extensive experience in automation, CI/CD, and cloud technologies. Proven track record of developing and maintaining complex automation frameworks, managing large-scale infrastructure, and leading teams to deliver high-quality software products. Adept at collaborating with cross-functional teams to achieve project goals and enhance operational efficiency.</p>
+        </section>
 
         <section>
             <h2>Objective</h2>
@@ -93,16 +106,52 @@
         </section>
 
         <section>
-            <h2>Additional Skills</h2>
-            <p>Python, Java, Groovy, JavaScript, NodeJS, React, Flask, HTML, PHP, CSS, SQL, Batch scripting, Bash scripting (Linux), C++, C#, Ruby</p>
-            <p>Microsoft Office package: Microsoft Word, Excel</p>
+            <h2>Programing Languages</h2>
+            <div class="skills">
+                <span class="skill">Python</span>
+                <span class="skill">Java</span>
+                <span class="skill">Groovy</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">NodeJS</span>
+                <span class="skill">React</span>
+                <span class="skill">Flask</span>
+                <span class="skill">HTML</span>
+                <span class="skill">PHP</span>
+                <span class="skill">CSS</span>
+                <span class="skill">SQL</span>
+                <span class="skill">Batch scripting</span>
+                <span class="skill">Bash scripting (Linux)</span>
+                <span class="skill">C++</span>
+                <span class="skill">C#</span>
+                <span class="skill">Ruby</span>
+            </div>
+            <h3>Additional Skills</h3>
+            <div class="skills">
+                <span class="skill">Docker</span>
+                <span class="skill">AWS</span>
+                <span class="skill">AZURE</span>
+                <span class="skill">Chef</span>
+                <span class="skill">Microsoft Word</span>
+                <span class="skill">Excel</span>
+            </div>
         </section>
 
         <section>
             <h2>Languages</h2>
-            <p><b>Arabic:</b> Native </p>
-            <p><b>English:</b> Fluent </p>
-            <p><b>Hebrew:</b> Fluent </p>
+            <div class="languages">
+                <div class="language">
+                    <span class="language-name">Arabic:</span>
+                    <span class="language-level">Native</span>
+                </div>
+                <div class="language">
+                    <span class="language-name">English:</span>
+                    <span class="language-level">Fluent</span>
+                </div>
+                <div class="language">
+                    <span class="language-name">Hebrew:</span>
+                    <span class="language-level">Fluent</span>
+                </div>
+            </div>
         </section>
 
         <footer>

@@ -5,20 +5,57 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 90%;
     margin: 20px auto;
     padding: 20px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+@media (min-width: 800px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+header {
+    position: relative;
+}
+
+.download-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.download-btn {
+    display: inline-block;
+    background-color: #0259af;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.download-btn:hover {
+    background-color: #014f8c;
+}
+
+.download-btn i {
+    display: block;
+    text-align: center;
+}
+
+
 header, section, footer {
     margin-bottom: 20px;
     padding: 20px;
-    background: #f8fbff;
+    background: #fbfdfe;
     border-radius: 10px;
     border: 1px solid #c4cbd8;
 }
@@ -51,6 +88,44 @@ h2 {
     border: 1px solid #c4cbd8;
 }
 
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.about-me {
+    background-color: #f0f5ff;
+    padding: 20px;
+    border: 1px solid #c4cbd8;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.about-me p {
+    margin: 0;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info a {
+    color: #0259af;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+    font-size: medium;
+}
+
+.contact-info span {
+    color: #0259af;
+    margin: 0 5px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style-type: disc;
     margin-left: 20px;
@@ -65,6 +140,53 @@ a:hover {
     text-decoration: underline;
 }
 
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skill {
+    background-color: #7e94aa;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #eaf3ff;
+    border: 1px solid #0259af;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.language-name {
+    font-weight: bold;
+    color: #0259af;
+    margin-right: 10px;
+}
+
+.language-level {
+    background-color: #0259af;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
 footer {
     text-align: center;
     font-size: 0.9em;
@@ -72,3 +194,4 @@ footer {
     border-top: 1px solid #ccc;
     padding-top: 10px;
 }
+
