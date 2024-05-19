@@ -1,0 +1,94 @@
+{
+    "name": "Wafi Hassan",
+    "phone": "+9720547281988",
+    "email": "wafihsn.88@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/wafihsn",
+    "aboutMe": "Highly motivated and results-oriented DevOps / Full-stack developer with extensive experience in automation, CI/CD, and cloud technologies. Proven track record of developing and maintaining complex automation frameworks, managing large-scale infrastructure, and leading teams to deliver high-quality software products. Adept at collaborating with cross-functional teams to achieve project goals and enhance operational efficiency.",
+    "objective": "DevOps / Full-stack developer / Automation Developer",
+    "workExperience": [
+        {
+            "title": "Automation Engineer at Questar Auto Technologies (Tools Department)",
+            "date": "Jun 2022 - Present",
+            "responsibilities": [
+                "Develop and maintain an automation framework using Python that extends pytest capabilities.",
+                "Develop and maintain TcpClient and Server using Python and FastAPI for OTA (Communication Over The Air).",
+                "Create and maintain a flash tool using Python that utilizes STM23 (st-link) to flash units.",
+                "Develop a flash system using a serial connection to Unit (DUT).",
+                "Manage EC2 instances (VMs) in AWS.",
+                "Create and maintain Docker images containing the automation framework (Publish/Deploy).",
+                "Work with Report Portal."
+            ]
+        },
+        {
+            "title": "DevOps Developer / Team Leader at Intel Corporation (CCD Department)",
+            "date": "April 2018 - Jun 2022",
+            "responsibilities": [
+                "Develop automated web tools for product release (Thunderbolt Driver).",
+                "Create and maintain Jenkins CI/CD jobs and Azure test suites.",
+                "Develop multiplatform VMs (Docker) for CI/CD and web servers for our web tools on Windows and Linux systems.",
+                "Implement automated flow for the full release of new drivers for clients.",
+                "Create monitoring systems to log all activities on DevOps agents/nodes using Python/PHP/JavaScript.",
+                "Develop the web application 'Image Release Manager' for developers and release managers.",
+                "Create Python scripts for web application monitoring and syncing physical storage with SQL Database.",
+                "Manage all GitLab/GitHub repos for all sub-teams (FWs and SWs teams).",
+                "Install and maintain physical/VMs machines (Windows and Linux) using Azure/AWS.",
+                "Support sub-teams (FWs, SWs) as needed (source code, git, CI/CD release).",
+                "Create Chef cookbooks using Ruby for new VMs.",
+                "Use Docker to create/deploy images on new VMs."
+            ]
+        },
+        {
+            "title": "Automation/ Regression Developer at Intel Corporation (ANDY Department)",
+            "date": "July 2015 - April 2018",
+            "responsibilities": [
+                "Develop and maintain regression tests using C++ for Ethernet cards products.",
+                "Conduct power-on testing for new A0 Ethernet cards products.",
+                "Develop tools using Python/Bash to automate regression run and log analysis."
+            ]
+        },
+        {
+            "title": "Computer / LAN Technician",
+            "date": "March 2007 - September 2011",
+            "responsibilities": [
+                "Set up and maintain computers.",
+                "Set up and maintain LAN connections."
+            ]
+        }
+    ],
+    "education": "ORT Braude College: Software Practical Engineer (2012 - 2014)",
+    "programmingLanguages": [
+        "Python",
+        "FastAPI (Python Backend)",
+        "VueJS",
+        "Flutter",
+        "JavaScript",
+        "HTML",
+        "Groovy",
+        "PHP",
+        "CSS",
+        "Java",
+        "NodeJS",
+        "React",
+        "Flask",
+        "C#",
+        "C++",
+        "SQL",
+        "Batch scripting (Windows)",
+        "Bash scripting (Linux)",
+        "PowerShell",
+        "Ruby"
+    ],
+    "additionalSkills": [
+        "Git",
+        "Docker",
+        "AWS",
+        "Azure",
+        "WSL",
+        "Chef"
+    ],
+    "languages": {
+        "Arabic": "Native",
+        "English": "Fluent",
+        "Hebrew": "Fluent"
+    }
+}

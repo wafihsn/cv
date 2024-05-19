@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Wafi Hassan's CV</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
@@ -11,156 +12,62 @@
     <div class="container">
         <header>
             <div class="profile-picture">
-                <img src="assets/profile.jpg" alt="Wafi Hassan">
+                <img src="assets/profile.jpg" alt="Profile Pic">
             </div>
             <div class="contact-info">
-                <h1>Wafi Hassan</h1>
-                <a id="phone" href="tel:+9720547281988">(+972) 0547281988</a>
+                <h1 id="name"></h1>
+                <a id="phone" href="#"></a>
                 <span>|</span>
-                <a href="mailto:wafihsn.88@gmail.com">wafihsn.88@gmail.com</a>
+                <a id="email" href="mailto:wafihsn.88@gmail.com"></a>
                 <span>|</span>
-                <a href="https://www.linkedin.com/in/wafihsn" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                <a id="linkedin" href="" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
             </div>
             <div class="download-button">
-                <a href="assets/CV.doc" class="download-btn" download>
+                <a href="assets/Wafi_Hassan_CV.docx" class="download-btn" download>
                     <i class="fas fa-file-word"></i>
+                </a>
+                <a href="assets/Wafi_Hassan_CV.pdf" class="download-btn" download>
+                    <i class="fas fa-file-pdf"></i>
                 </a>
             </div>
         </header>
 
         <section>
             <h2>About Me</h2>
-            <p>Highly motivated and results-oriented DevOps / Full-stack developer with extensive experience in automation, CI/CD, and cloud technologies. Proven track record of developing and maintaining complex automation frameworks, managing large-scale infrastructure, and leading teams to deliver high-quality software products. Adept at collaborating with cross-functional teams to achieve project goals and enhance operational efficiency.</p>
+            <p id="aboutMe"></p>
         </section>
 
         <section>
             <h2>Objective</h2>
-            <p><b>DevOps / Full-stack developer / Automation Developer</b></p>
+            <p id="objective"></p>
         </section>
 
         <section>
             <h2>Work Experience</h2>
-
-            <div class="job">
-                <h3>Automation Engineer at Questar Auto Technologies (Tools Department)</h3>
-                <p><strong>Jun 2022 - Present</strong></p>
-                <ul>
-                    <li><b>Develop and Maintain Automation Framework</b> using python that extends pytest capabilities.</li>
-                    <li><b>Develop and Maintain TcpClient</b> and <b>Server</b> using python and FastAPI (python backend) for OTA (Communication Over The Air).</li>
-                    <li><b>Develop and Maintain Flash tool</b> using python that uses STM23 (st-link) to flash units.</li>
-                    <li><b>Develop and Maintain Flash system using Serial Connection</b> to Unit (DUT).</li>
-                    <li><b>Develop and Maintain Internal usage tools</b> for Automation Framework development.</li>
-                    <li><b>Develop a Parser</b> that is used by the Automation Framework that can read DUT messages and can encode/decode them.</li>
-                    <li>Add <b>Support</b> for new type of DUT to Automation Framework that is hosted on <b>linux OS</b></li>
-                    <li>Manage <b>EC2 Instances (VMS)</b> in <b>AWS</b>.</li>
-                    <li>Create and Maintain <b>Docker images</b> that contain our <b>Automation Framework</b> (Publish/Deploy).</li>
-                    <li>Create and Manage <b>Docker registry.</b></li>
-                    <li>Work with <b>Report Portal</b>.</li>
-                </ul>
-            </div>
-
-            <div class="job">
-                <h3>DevOps Developer / Team Leader at Intel Corporation (CCD Department)</h3>
-                <p><strong>April 2018 - Jun 2022</strong></p>
-                <ul>
-                    <li>Develop <b>Automated Webtools</b> for <b>Product Release</b> (Thunderbolt Driver).</li>
-                    <li>Create and Maintain <b>Jenkins CI/CD Jobs</b> and Azure test suites (Cloud).</li>
-                    <li>Create <b>Multiplatform VMs (docker)</b> for CI/CD and webservers for our webtools Windows and Linux systems.</li>
-                    <li>Create <b>Automated Flow for full Release of new driver for clients</b>.</li>
-                    <li>Create <b>Monitoring systems to Monitor and log all Activities</b> on <b>Devops agents/nodes</b> using <b>python/php/JavaScript</b>.</li>
-                    <li>Create <b>Web Application "Image Release Manager"</b> for developers and Release Managers.</li>
-                    <li>Create <b>Python Scripts for WebApplication</b>, monitoring and sync physical storage with <b>SQL Database</b>.</li>
-                    <li><b>Manage</b> all <b>Gitlab/Github repos</b> for all Sub Teams (FWs and SWs teams).</li>
-                    <li><b>Install and Maintain</b> Physical / VMs machines (windows and Linux) using <b>Azure/ AWS</b>.</li>
-                    <li><b>Maintain Jenkins CI/CD flow</b> (debug/change/edit) on <b>Demand</b>.</li>
-                    <li><b>Maintain DevOps tools</b> (debug/change/edit) source code on <b>Demand</b>.</li>
-                    <li><b>Support Sub-Teams</b> (FWs SWs) when needed (source code git CI/CD release).</li>
-                    <li><b>Create Chef cookbooks</b> using Ruby for new VMs.</li>
-                    <li><b>Use Docker to create / deploy images</b> on new VMs.</li>
-                </ul>
-            </div>
-
-            <div class="job">
-                <h3>Automation/ Regression Developer at Intel Corporation (ANDY Department)</h3>
-                <p><strong>July 2015 - April 2018</strong></p>
-                <ul>
-                    <li><b>Develop and Maintain Regression Tests</b> using C++ for Ethernet Cards products.</li>
-                    <li><b>Do Power On new A0 Ethernet Cards</b> products.</li>
-                    <li><b>Develop Tools</b> using python / bash that <b>Automate Regression Run and log analyze</b>.</li>
-                </ul>
-            </div>
-
-            <div class="job">
-                <h3>Computer / LAN Technician</h3>
-                <p><strong>March 2007 - September 2011</strong></p>
-                <ul>
-                    <li>Setup and Maintain computers.</li>
-                    <li>Setup and Maintain LAN connection.</li>
-                </ul>
-            </div>
+            <div id="workExperience"></div>
         </section>
 
         <section>
             <h2>Education</h2>
-            <p><strong>ORT Braude College:</strong> Software Practical Engineer (2012 - 2014)</p>
+            <p id="education"></p>
         </section>
 
         <section>
             <h2>Programming Languages</h2>
-            <div class="skills">
-                <span class="skill">Python</span>
-                <span class="skill">FastAPI (python Backend)</span>
-                <span class="skill">VueJS</span>
-                <span class="skill">Flutter</span>
-                <span class="skill">JavaScript</span>
-                <span class="skill">HTML</span>
-                <span class="skill">Groovy</span>
-                <span class="skill">PHP</span>
-                <span class="skill">CSS</span>
-                <span class="skill">Java</span>
-                <span class="skill">NodeJS</span>
-                <span class="skill">React</span>
-                <span class="skill">Flask</span>
-                <span class="skill">C#</span>
-                <span class="skill">C++</span>
-                <span class="skill">SQL</span>
-                <span class="skill">Batch scripting (Windows)</span>
-                <span class="skill">Bash scripting (Linux)</span>
-                <span class="skill">PowerShell</span>
-                <span class="skill">Ruby</span>
-            </div>
+            <div class="skills" id="programmingLanguages"></div>
             <h3>Additional Skills</h3>
-            <div class="skills">
-                <span class="skill">GIT</span>
-                <span class="skill">Docker</span>
-                <span class="skill">AWS</span>
-                <span class="skill">AZURE</span>
-                <span class="skill">WSL</span>
-                <span class="skill">Chef</span>
-            </div>
+            <div class="skills" id="additionalSkills"></div>
         </section>
 
         <section>
             <h2>Languages</h2>
-            <div class="languages">
-                <div class="language">
-                    <span class="language-name">Arabic:</span>
-                    <span class="language-level">Native</span>
-                </div>
-                <div class="language">
-                    <span class="language-name">English:</span>
-                    <span class="language-level">Fluent</span>
-                </div>
-                <div class="language">
-                    <span class="language-name">Hebrew:</span>
-                    <span class="language-level">Fluent</span>
-                </div>
-            </div>
+            <div class="languages" id="languages"></div>
         </section>
 
         <footer>
             <p>References available on request</p>
         </footer>
     </div>
+    <script src="src/main.js"></script>
 </body>
 </html>
